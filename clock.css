@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Roboto&family=Space+Mono&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 600px;
+    min-height: 300px;
+    border: 20px solid #ccc;
+    border-radius: 50px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container #clock{
+    font-size: 5rem;
+}
